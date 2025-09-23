@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url('./assets/fenceflower_aug3_2025-min.png');
+  background-image: url('./assets/fenceflower_aug3_2025-min.jpg');
   background-size: 100%;
   background-position: 0px -18.75rem;
 }
@@ -32,6 +32,8 @@ html, body, #root {
 
   display: flex;
   flex-direction: column;
+
+  /* scroll-behavior: smooth; */
 }
 
 html {
@@ -44,4 +46,18 @@ html {
     margin: auto;
     opacity: 0.8;
     background-color: #fff;
+}
+
+.noisy {
+  filter: url(#noise);
+  animation: noiseFade 2s forwards;
+}
+
+@keyframes noiseFade {
+  0% {
+    filter: url(#noise);
+  }
+  100% {
+    filter: none; /* noise disappears */
+  }
 }

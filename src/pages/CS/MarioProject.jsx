@@ -1,7 +1,7 @@
 import './CS.css';
 
-import projectImageA from '../../assets/drmario.png';
-import projectImageB from '../../assets/drmario_game_over.png';
+import projectImageA from '../../assets/drmario.jpg';
+import projectImageB from '../../assets/drmario_game_over.jpg';
 
 function MarioProject() {
     return (

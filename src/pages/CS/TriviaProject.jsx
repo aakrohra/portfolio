@@ -1,7 +1,7 @@
 import './CS.css';
 
-import projectImageA from '../../assets/trivia_shared.png';
-import projectImageB from '../../assets/trivia_create.png';
+import projectImageA from '../../assets/trivia_shared.jpg';
+import projectImageB from '../../assets/trivia_create.jpg';
 
 function TriviaProject() {
     return (
