@@ -21,6 +21,17 @@
     font-size: 1.0625rem;
 }
 
+.projectDetails {
+    max-width: 70%;
+    font-size: 1.0625rem;
+    margin: 0 auto;
+    background: #120d0a;
+    outline: 0.2rem solid white;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .github-link {
     color: #e2b882;
 }
@@ -36,6 +47,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.clickabletext {
+    color: #e2b882;
+}
+
+.clickabletext:hover {
+    color: #d68b3f;
 }
 
 @media (max-width: 1000px) {

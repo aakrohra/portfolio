@@ -13,7 +13,7 @@ function TriviaProject() {
                     Created in Java with a structure following Clean Architecture. <br></br><br></br>
                     My individual contributions were related to custom quizzes: key input functionality, 
                     quiz access from API, and quiz creation logic. My team contributions were assisting 
-                    with quiz playthrough logic and UIs. Project files and a detailed README can be found in the <a target='_blank' className="github-link" href="https://github.com/aakrohra/Quiz90_Trivia_Game">Github Repo</a>. 
+                    with quiz playthrough logic and UIs. Project files and a detailed README can be found in the <a target='_blank' className="github-link" href="https://github.com/aakrohra/Quiz90TriviaGame">Github Repo</a>. 
                 </p>
             </div>
         </>

@@ -38,7 +38,7 @@ img {
 }
 
 iFrame {
-    border-radius: 0.0625rem;
+    border-radius: 1.5rem;
 }
 
 @media (max-width: 1000px) {

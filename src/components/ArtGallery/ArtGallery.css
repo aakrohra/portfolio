@@ -1,12 +1,3 @@
-.art-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 0.6rem;
-}
-
 .art-gallery img {
   width: 100%; 
   max-width: 18.75rem;
@@ -16,4 +7,12 @@
   object-fit: cover;
   background-color: white;
   padding: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.art-gallery {
+  column-width: 18.75rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 0.6rem;
 }

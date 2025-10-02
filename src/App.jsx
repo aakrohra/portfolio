@@ -12,6 +12,7 @@ import Mache from './pages/Music/Mache';
 import MusicBlob from './pages/Music/MusicBlob';
 import MarioProject from "./pages/CS/MarioProject";
 import TriviaProject from "./pages/CS/TriviaProject";
+import SongRecProject from "./pages/CS/SongRecProject";
 import CSBlob from './pages/CS/CSBlob';
 
 const homeLinks = [{to: "/", label: "Home"},
@@ -32,6 +33,7 @@ function App() {
             <Route path='/cs' element={<CSBlob />} />
             <Route path='/cs/quiz90' element={<TriviaProject />} />
             <Route path='/cs/drmario' element={<MarioProject />} />
+            <Route path='/cs/songrec' element={<SongRecProject />} />
           </Route>
           <Route path="/music" element={<Music />}>
             <Route path='/music' element={<MusicBlob />} />
