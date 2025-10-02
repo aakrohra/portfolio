@@ -9,7 +9,8 @@ function CSBlob() {
                 <div className="preambleDiv">
                     <p className="preamble">My goal with computer science, beyond enjoying the problem-solving,
                         is to build tools and programs inspired by the passions and interests that shape who I am.
-                        
+                        <br/><br/>
+                        Use the navigation bar above for information on my most notable projects.
                     </p>
                 </div>
             </Fade>
