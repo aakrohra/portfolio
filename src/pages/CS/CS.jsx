@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 import NavBar from "../../components/NavBar/NavBar";
 
 const csBar = [{to: "/cs/quiz90", label: "Quiz 90: Trivia Quiz Platform"},
@@ -8,8 +9,10 @@ const csBar = [{to: "/cs/quiz90", label: "Quiz 90: Trivia Quiz Platform"},
 function CS() {
     return (
         <>
-            <NavBar navlinks={csBar} />
-            <Outlet />
+            <Fade triggerOnce>
+                <NavBar navlinks={csBar} />
+                <Outlet />
+            </Fade>
         </>
     )
 }

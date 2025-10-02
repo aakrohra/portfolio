@@ -1,6 +1,7 @@
 import Markdown from 'react-markdown';
 
 import React, { useState } from 'react';
+import { Fade, Slide } from "react-awesome-reveal";
 
 import './CS.css';
 
@@ -14,17 +15,21 @@ function MarioProject() {
       }
     return (
         <>
-            <div className="project">
-                <video controls="controls" className='projectImg' name="Video Name">
-                    <source src={drMarioVid}/>
-                </video>
-                <p className="projectText">A low-level Dr. Mario clone written entirely in MIPS assembly. 
-                    <a className="clickabletext" onClick={mdClick}> Click here</a> to view implementation details. </p>
-            </div>
-            {md &&
-                <div className="projectDetails">
-                    <Markdown>{docs}</Markdown>
+            <Fade triggerOnce>
+                <div className="project">
+                        <video controls="controls" width="1920" height="1031" className='projectImg' name="Video Name">
+                            <source src={drMarioVid}/>
+                        </video>
+                    <p className="projectText">A low-level Dr. Mario clone written entirely in MIPS assembly. 
+                        <a className="clickabletext" onClick={mdClick}> Click here</a> to view implementation details. </p>
                 </div>
+            </Fade>
+            {md &&
+                <Slide direction="left" triggerOnce>
+                    <div className="projectDetails">
+                        <Markdown>{docs}</Markdown>
+                    </div>
+                </Slide>
             }
         </>
     )

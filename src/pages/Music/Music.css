@@ -4,16 +4,17 @@
     justify-content: center;
 }
 
-img {
+.bandImage {
     width: 100%; 
     max-width: 40%;
+    height: auto;
     background-color: white;
     padding: 0.2rem;
 }
 
 .bandText {
     padding-left: 2rem;
-    max-width: 15%;
+    max-width: 20%;
     font-size: 1.0625rem;
 }
 

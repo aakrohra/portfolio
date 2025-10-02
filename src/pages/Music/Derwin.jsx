@@ -2,11 +2,13 @@ import bandImage from '../../assets/derwin-bampot.JPG';
 
 import './Music.css';
 
+import { Fade } from "react-awesome-reveal";
+
 function Derwin() {
     return (
-        <>
+        <Fade triggerOnce>
             <div className="band">
-                <img src={bandImage} />
+                <img className="bandImage" width="3" height="2" src={bandImage} />
                 <p className='bandText'>
                     Derwin was a garage-rock band formed in my first year. What set it apart was the unique backgrounds of every member,
                     pursuing the varying fields of Cognitive Science, Economics, Environmental Studies, and Engineering.
@@ -26,7 +28,7 @@ function Derwin() {
                     height="380"
                 />
             </div>
-        </>
+        </Fade>
     )
 }
 

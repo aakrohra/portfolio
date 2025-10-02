@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 import NavBar from "../../components/NavBar/NavBar";
 
 const musicBar = [{to: "/music/inf", label: "In Framings"},
@@ -8,8 +9,10 @@ const musicBar = [{to: "/music/inf", label: "In Framings"},
 function Music() {
     return (
         <>
-            <NavBar navlinks={musicBar} />
-            <Outlet />
+            <Fade triggerOnce>
+                <NavBar navlinks={musicBar} />
+                <Outlet />
+            </Fade>
         </>
     )
 }

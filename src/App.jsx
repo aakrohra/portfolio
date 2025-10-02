@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
+
 import Head from './components/Head/Head';
 import NavBar from "./components/NavBar/NavBar";
 import CS from "./pages/CS/CS";
@@ -21,32 +23,34 @@ const homeLinks = [{to: "/", label: "Home"},
                    {to: "/art", label: "Art/Graphics"}]
 
 function App() {
-  return (
-    <>
-      <Head />
-      <NavBar navlinks={homeLinks} />
-      <main style={{ flex: 1 }}>
-        <div className="vertical-line"></div>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path="/cs" element={<CS />}>
-            <Route path='/cs' element={<CSBlob />} />
-            <Route path='/cs/quiz90' element={<TriviaProject />} />
-            <Route path='/cs/drmario' element={<MarioProject />} />
-            <Route path='/cs/songrec' element={<SongRecProject />} />
-          </Route>
-          <Route path="/music" element={<Music />}>
-            <Route path='/music' element={<MusicBlob />} />
-            <Route path='/music/inf' element={<InFramings />} />
-            <Route path="/music/mache" element={<Mache />} />
-            <Route path="/music/derwin" element={<Derwin />} />
-          </Route>
-          <Route path='/art' element={<Art />} />
-        </Routes>
-      </main>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <main style={{ flex: 1 }}>
+                <Fade cascade damping={0.5} triggerOnce>
+                    <Head />
+                    <NavBar navlinks={homeLinks} />
+                    <div className="vertical-line"></div>
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path="/cs" element={<CS />}>
+                            <Route path='/cs' element={<CSBlob />} />
+                            <Route path='/cs/quiz90' element={<TriviaProject />} />
+                            <Route path='/cs/drmario' element={<MarioProject />} />
+                            <Route path='/cs/songrec' element={<SongRecProject />} />
+                        </Route>
+                        <Route path="/music" element={<Music />}>
+                            <Route path='/music' element={<MusicBlob />} />
+                            <Route path='/music/inf' element={<InFramings />} />
+                            <Route path="/music/mache" element={<Mache />} />
+                            <Route path="/music/derwin" element={<Derwin />} />
+                        </Route>
+                        <Route path='/art' element={<Art />} />
+                    </Routes>
+                </Fade>
+            </main>
+            <Footer />
+        </>
+    );
 }
 
 export default App;

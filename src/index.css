@@ -48,16 +48,10 @@ html {
     background-color: #fff;
 }
 
-.noisy {
-  filter: url(#noise);
-  animation: noiseFade 2s forwards;
-}
-
-@keyframes noiseFade {
-  0% {
-    filter: url(#noise);
-  }
-  100% {
-    filter: none; /* noise disappears */
-  }
+img {
+    width: 100%; 
+    max-width: 40%;
+    height: auto;
+    background-color: white;
+    padding: 0.2rem;
 }
