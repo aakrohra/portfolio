@@ -14,9 +14,19 @@ function Head() {
         <div>
             <div className='all'>
                 <span className="header">Sensory Memory </span>
-                <span className="subheader"><a className="clickabletext" onClick={pfpClick}>Aakaash Rohra</a>'s Digital Portfolio </span>
+                <span className="subheader">
+                    <a className="clickabletext" onClick={pfpClick}>Aakaash Rohra</a>'s Digital Portfolio
+                </span>
             </div>
-                {pfp && <JackInTheBox><div className="headshot"><img width="560" height="560" src={headshot}/></div></JackInTheBox>}
+            {pfp && 
+                <JackInTheBox>
+                    <div className="headshotContainer">
+                        <a href="https://www.linkedin.com/in/aakaash-rohra-a5a64929a/" target="_blank">
+                            <img className="headshot" width="560" height="560" src={headshot}/>
+                        </a>
+                    </div>
+                </JackInTheBox>
+            }
         </div>
     );
 }

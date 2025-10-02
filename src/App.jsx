@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar/NavBar";
 import CS from "./pages/CS/CS";
 import Music from "./pages/Music/Music";
 import Art from './pages/Art/Art';
+import Resume from './pages/Resume/Resume';
 import Home from './pages/Home/Home';
 import Footer from "./components/Footer/Footer";
 import InFramings from './pages/Music/InFramings';
@@ -20,7 +21,8 @@ import CSBlob from './pages/CS/CSBlob';
 const homeLinks = [{to: "/", label: "Home"},
                    {to: "/cs", label: "CS"},
                    {to: "/music", label: "Music"},
-                   {to: "/art", label: "Art/Graphics"}]
+                   {to: "/art", label: "Art/Graphics"},
+                   {to: "/resume", label: "Resume"}]
 
 function App() {
     return (
@@ -45,10 +47,13 @@ function App() {
                             <Route path="/music/derwin" element={<Derwin />} />
                         </Route>
                         <Route path='/art' element={<Art />} />
+                        <Route path='/resume' element={<Resume />} />
                     </Routes>
                 </Fade>
             </main>
-            <Footer />
+            <Fade duration={2000} triggerOnce>
+                <Footer />
+            </Fade>
         </>
     );
 }

@@ -1,0 +1,24 @@
+.resumeDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.resumeImg {
+    outline: 0.2rem solid black;
+    max-width: 50%;
+}
+
+/* @media (max-width: 1000px) {
+    .resumeImg {
+    max-width: 70%;
+    font-size: 1.0625rem;
+    margin: 0 auto;
+    background: #120d0a;
+    outline: 0.2rem solid white;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+} */

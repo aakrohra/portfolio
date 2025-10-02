@@ -10,7 +10,11 @@ function CSBlob() {
                     <p className="preamble">My goal with computer science, beyond enjoying the problem-solving,
                         is to build tools and programs inspired by the passions and interests that shape who I am.
                         <br/><br/>
-                        Use the navigation bar above for information on my most notable projects.
+                        I have experience with Java, Python, C/C++, JavaScript, HTML, CSS, React, SQL, Assembly, 
+                        and Git for version control. I have also taken courses in data structures and analysis,
+                        algorithms, software design, systems programming, and computer organization.
+                        <br/><br/>
+                        Use the navigation bar above for information on my projects.
                     </p>
                 </div>
             </Fade>

@@ -13,6 +13,7 @@ body {
     background-image: url('./assets/fenceflower_aug3_2025-min.jpg');
     background-size: 100%;
     background-position: 0px -18.75rem;
+    overflow-x: clip;
 }
 
 html, body, #root {
@@ -58,4 +59,15 @@ img {
     height: auto;
     background-color: white;
     padding: 0.2rem;
+}
+
+@media (max-width: 1000px) {
+    .vertical-line {
+        width: 60%;
+        height: 0.0625rem;
+        margin: auto;
+        opacity: 0.8;
+        background-color: #fff;
+        margin-top: 2.5px;
+}
 }

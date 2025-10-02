@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     color: #fff;
-    padding: 1.2rem;
+    padding: 1.1rem;
 }
 
 .nav-links {
@@ -12,6 +12,10 @@
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+.nav-links li {
+    padding: 0.01rem;
 }
 
 .nav-links a {
@@ -29,4 +33,10 @@
     background-color: rgba(0, 0, 0, 0.499);
     padding: 0.14rem;
     border-radius: 0.175rem;
+}
+
+@media (max-width: 1000px) {
+    .nav-links li {
+        padding: 0.1rem;
+    }
 }
