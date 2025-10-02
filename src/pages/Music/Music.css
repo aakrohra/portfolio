@@ -49,9 +49,9 @@ iFrame {
     text-align: center;
   }
 
-  img {
+  .bandImage {
     width: 100%;
-    max-width: 70%; /* make image responsive */
+    max-width: 70%;
   }
 
   .bandText {

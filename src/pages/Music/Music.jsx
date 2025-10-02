@@ -9,7 +9,7 @@ const musicBar = [{to: "/music/inf", label: "In Framings"},
 function Music() {
     return (
         <>
-            <Fade triggerOnce>
+            <Fade duration={700} triggerOnce>
                 <NavBar navlinks={musicBar} />
                 <Outlet />
             </Fade>

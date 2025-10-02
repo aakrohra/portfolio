@@ -64,7 +64,7 @@
     text-align: center;
   }
 
-  img {
+  .projectImg {
     max-height: 18.75rem;
     height: auto;
     width: auto;

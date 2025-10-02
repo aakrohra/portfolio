@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 
 function InFramings() {
     return (
-        <Fade triggerOnce>
+        <Fade duration={700} triggerOnce>
             <div className="band">
                     <img className="bandImage" width="3" height="2" src={bandImage} />
                 <p className='bandText'>In Framings is an indie rock band I started 4 years ago. It has

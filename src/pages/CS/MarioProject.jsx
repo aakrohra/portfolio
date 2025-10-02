@@ -15,7 +15,7 @@ function MarioProject() {
       }
     return (
         <>
-            <Fade triggerOnce>
+            <Fade duration={700} triggerOnce>
                 <div className="project">
                         <video controls="controls" width="1920" height="1031" className='projectImg' name="Video Name">
                             <source src={drMarioVid}/>

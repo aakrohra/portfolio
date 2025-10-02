@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 function Home() {
     return (
         <>
-            <Fade triggerOnce>
+            <Fade duration={700} triggerOnce>
                 <div className="homecontent">
                     <p className="hometext">My name is Aakaash, and this is a digital portfolio coded in React.js showcasing my passions. I am a 3rd year
                         student at the University of Toronto studying Computer Science and English. I spend my time outside of those fields

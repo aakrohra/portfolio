@@ -9,7 +9,7 @@ const csBar = [{to: "/cs/quiz90", label: "Quiz 90: Trivia Quiz Platform"},
 function CS() {
     return (
         <>
-            <Fade triggerOnce>
+            <Fade duration={700} triggerOnce>
                 <NavBar navlinks={csBar} />
                 <Outlet />
             </Fade>

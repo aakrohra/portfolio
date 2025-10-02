@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 
 function Derwin() {
     return (
-        <Fade triggerOnce>
+        <Fade duration={700} triggerOnce>
             <div className="band">
                 <img className="bandImage" width="3" height="2" src={bandImage} />
                 <p className='bandText'>
