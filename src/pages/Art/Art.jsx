@@ -8,7 +8,9 @@ function Art() {
     return (
         <Fade duration={700} triggerOnce>
             <div className="content">
-                <p className='text'>Edits and graphic designs created as promotional material for my music projects. Photos taken by me, Valentina Gheorghe, or Anisha Rohra.</p>
+                <div className="textDiv">
+                    <p className='text'>Edits and graphic designs created as promotional material for my music projects. Photos taken by me, Valentina Gheorghe, or Anisha Rohra.</p>
+                </div>
                 <ArtGallery />
             </div>
         </Fade>

@@ -1,13 +1,14 @@
 .text {
-    font-family: 'Baskerville Light';
     font-size: 1.0625rem;
+    max-width: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+.textDiv {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    text-align: center;
-    padding-left: 5rem;
-    padding-right: 5rem;
 }
 
 .content {
@@ -15,7 +16,7 @@
 }
 
 @media (max-width: 1000px) {
-  .text {
-    max-width: 70%;
-  }
+    .text {
+        max-width: 70%;
+    }
 }

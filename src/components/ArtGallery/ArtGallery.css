@@ -1,18 +1,27 @@
 .art-gallery img {
-  width: 100%; 
-  max-width: 18.75rem;
-  height: auto;
-  margin: 0 auto;
-  display: block; 
-  object-fit: cover;
-  background-color: white;
-  padding: 0.2rem;
-  margin-bottom: 0.5rem;
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block; 
+    object-fit: cover;
+    background-color: white;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .art-gallery {
-  column-width: 18.75rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 0.6rem;
+    column-width: 15rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 0.6rem;
+}
+
+@media (max-width: 1000px) {
+    .art-gallery {
+        column-width: 18.75rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 0.6rem;
+    }
 }
