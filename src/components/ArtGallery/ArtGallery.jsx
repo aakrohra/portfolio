@@ -26,7 +26,15 @@ function ArtGallery() {
                                     alt={`Art ${idx + 1}`}
                                
                                 />
-                                <div className="play-icon">▶</div>
+                                <div className="play-icon">
+                                    <svg
+                                        viewBox="0 0 100 100"
+                                        width="75"
+                                        height="75"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <polygon points="40,30 40,70 70,50" fill="#ffffff"/>
+                                    </svg>
+                                </div>
                             </div>
                         ) : (
                             <img
