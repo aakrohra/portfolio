@@ -8,7 +8,6 @@ import Music from "./pages/Music/Music";
 import Art from './pages/Art/Art';
 import Resume from './pages/Resume/Resume';
 import Home from './pages/Home/Home';
-import Footer from "./components/Footer/Footer";
 import InFramings from './pages/Music/InFramings';
 import Derwin from './pages/Music/Derwin';
 import Mache from './pages/Music/Mache';
@@ -51,9 +50,6 @@ function App() {
                     </Routes>
                 </Fade>
             </main>
-            <Fade duration={2000} triggerOnce>
-                <Footer />
-            </Fade>
         </>
     );
 }

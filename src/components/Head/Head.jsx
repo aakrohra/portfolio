@@ -13,7 +13,7 @@ function Head() {
     return (
         <div>
             <div className='all'>
-                <span className="header">Sensory Memory </span>
+                {/* <span className="header">Portfolio </span> */}
                 <span className="subheader">
                     <a className="clickabletext" onClick={pfpClick}>Aakaash Rohra</a>'s Digital Portfolio
                 </span>

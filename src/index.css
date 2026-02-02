@@ -14,31 +14,22 @@ body {
     background-size: 100%;
     background-position: 0px -18.75rem;
     overflow-x: clip;
-}
-
-html, body, #root {
     height: 100%;
     margin: 0;
 }
 
-p {
-    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 1);
-}
-
-#root {
+main {
     font-family: 'Baskerville Light', serif;
     font-size: 1.3rem;
-    /* letter-spacing: 0.05rem;
-    word-spacing: 0.125rem; */
-
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-
-
     display: flex;
     flex-direction: column;
+    padding-bottom: 0.5rem;
+}
 
-    /* scroll-behavior: smooth; */
+p {
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 1);
 }
 
 html {
