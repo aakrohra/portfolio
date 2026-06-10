@@ -52,6 +52,14 @@ img {
     padding: 0.2rem;
 }
 
+a {
+    color: #e2b882;
+}
+
+a:hover {
+    color: #bc7a25;
+}
+
 @media (max-width: 1000px) {
     .vertical-line {
         width: 60%;

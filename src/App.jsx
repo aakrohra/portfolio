@@ -16,12 +16,17 @@ import MarioProject from "./pages/CS/MarioProject";
 import TriviaProject from "./pages/CS/TriviaProject";
 import SongRecProject from "./pages/CS/SongRecProject";
 import CSBlob from './pages/CS/CSBlob';
+import RobertStreetDemos from "./pages/Music/RobertStreetDemos";
+
+// const homeLinks = [{to: "/", label: "Home"},
+//                    {to: "/cs", label: "CS"},
+//                    {to: "/music", label: "Music"},
+//                    {to: "/art", label: "Art/Graphics"},
+//                    {to: "/resume", label: "Resume"}]
 
 const homeLinks = [{to: "/", label: "Home"},
-                   {to: "/cs", label: "CS"},
                    {to: "/music", label: "Music"},
-                   {to: "/art", label: "Art/Graphics"},
-                   {to: "/resume", label: "Resume"}]
+                   {to: "/art", label: "Graphics"}]
 
 function App() {
     return (
@@ -44,6 +49,7 @@ function App() {
                             <Route path='/music/inf' element={<InFramings />} />
                             <Route path="/music/mache" element={<Mache />} />
                             <Route path="/music/derwin" element={<Derwin />} />
+                            <Route path='/music/rsd' element={<RobertStreetDemos />} />
                         </Route>
                         <Route path='/art' element={<Art />} />
                         <Route path='/resume' element={<Resume />} />

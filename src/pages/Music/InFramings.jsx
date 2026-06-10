@@ -9,24 +9,17 @@ function InFramings() {
         <Fade duration={700} triggerOnce>
             <div className="band">
                     <img className="bandImage" width="3" height="2" src={bandImage} />
-                <p className='bandText'>In Framings is an indie rock band I started 4 years ago. It has
-                    served as my main creative outlet and a chance to lead a project, connect with
-                    a local community, and grow as both a musician and organizer. As the primary contact
-                    for booking and events, I learned the value of professionalism, clear communication,
-                    and networking in a fast-moving scene.
-                    
-                    <br></br>You can listen to the In Framings EP <i>Painted Over Portraits</i> below.<br></br><br></br>Photo by Cole London. Edited by me.
+                <p className='bandText'><a href="https://www.instagram.com/inframings/">In Framings</a> is an emo band (2nd/4th-wave inspired) I started in 2022. It's been
+                    my main creative and emotional outlet. You can listen to the In Framings EP <i>Painted Over Portraits</i> below.<br></br><br></br>Photo by Cole London. Edited by me.
                 </p>
             </div>
             <div className="spotifyWrapper">
-                <iframe 
-                    src="https://open.spotify.com/embed/album/0Jo79HhLVmwsWeczODsuff?utm_source=generator"
-                    allow="encrypted-media"
-                    title="Derwin EP"
-                    frameBorder="0"
-                    width="450"
-                    height="380"
-                />
+                <iframe
+                    title="Painted Over Portraits by In Framings"
+                    style={{ border: 0, width: '350px', height: '588px' }}
+                    src="https://bandcamp.com/EmbeddedPlayer/album=3816890407/size=large/bgcol=333333/linkcol=e99708/transparent=true/"
+                >
+                </iframe>
             </div>
         </Fade>
     )

@@ -9,10 +9,8 @@ function Mache() {
             <div className="band">
                 <img className="bandImage" width="3" height="2" src={bandImage} />
                 <p className='bandText'>
-                    mache is an indie rock band I joined when it started 2 years ago. It taught me a great deal
-                    about collaborating with new people, and introduced me to a vibrant local creative community.
-                    The band’s growing local presence has helped me build a network of creatives that I tap into frequently.
-                    <br></br><br></br>mache has played a number of benefit, charity, and diversity shows.<br></br><br></br>Photo by Olivia Dans.
+                    mache was an indie rock/dance punk/new wave band I joined when it started in 2024, and is primarily responsible for getting me into the Toronto music scene. I figured it out, vaguely, through getting to play in this band.
+                    <br></br><br></br>Photo by Olivia Dans.
                 </p>
             </div>
         </Fade>
